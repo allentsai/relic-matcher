@@ -1,0 +1,33 @@
+{
+  "name": "relic-matcher",
+  "version": "1.0.0",
+  "description": "Warframe Relic Match-Making Service",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "parcel-bundler": "^1.12.3",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "./node_modules/ts-node/dist/bin.js src/index.ts",
+    "dev": "./node_modules/nodemon/bin/nodemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allentsai/relic-matcher.git"
+  },
+  "keywords": [
+    "warframe"
+  ],
+  "author": "Allen Tsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allentsai/relic-matcher/issues"
+  },
+  "homepage": "https://github.com/allentsai/relic-matcher#readme"
+}
